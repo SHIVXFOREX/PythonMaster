@@ -1,5 +1,6 @@
 #CHANGE VERSON 2
 #verson 8 
+#LINUX SERVER
 from datetime import datetime
 import time
 from iqoptionapi.stable_api import IQ_Option
