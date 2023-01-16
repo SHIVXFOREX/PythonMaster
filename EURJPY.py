@@ -12,8 +12,8 @@ while True :
     dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
     seconds = now.strftime("%H:%M:%S")
     print("min and sec =", seconds)
-    if seconds == "15:30:00" :
-        print("time is 06:31:00")
+    if seconds == "07:01:00" :
+        print("time is 07:01:00")
         error_password="""{"code":"invalid_credentials","message":"You entered the wrong credentials. Please check that the login/password is correct."}"""
         Iq=IQ_Option("shivxforex@gmail.com","IDEAPAD300")
         check,reason=Iq.connect()
@@ -114,6 +114,7 @@ while True :
                 print("Amount :- " , amount)
                 print("Current Earning :- ", Initial_Balance - current_Bal)
                 print("-------------------------------------")
+                now = datetime.now()
                 file1.write("T&D :- " + dt_string + " | ")
                 file1.write(ACTIVES + " | ")
                 file1.write(action + " | ")

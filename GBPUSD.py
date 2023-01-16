@@ -112,6 +112,7 @@ while True :
                 print("Balance :- " , Iq.get_balance()) 
                 print("Amount :- " , amount)
                 print("-------------------------------------")
+                now = datetime.now()
                 file1.write("T&D :- " + dt_string + " | ")
                 file1.write(ACTIVES + " | ")
                 file1.write(action + " | ")
