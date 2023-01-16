@@ -12,7 +12,7 @@ while True :
     dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
     seconds = now.strftime("%H:%M:%S")
     print("min and sec =", seconds)
-    if seconds == "15:22:00" :
+    if seconds == "15:30:00" :
         print("time is 06:31:00")
         error_password="""{"code":"invalid_credentials","message":"You entered the wrong credentials. Please check that the login/password is correct."}"""
         Iq=IQ_Option("shivxforex@gmail.com","IDEAPAD300")
@@ -27,7 +27,7 @@ while True :
             
 
 
-            ACTIVES="EURUSD"
+            ACTIVES="EURJPY"
             duration=1#minute 1 or 5
             default_Amt=1
             amount=1
@@ -61,7 +61,7 @@ while True :
             #Master Loop
             while True:
                 #MM 
-                file1 = open("EURUSD.txt", "a")
+                file1 = open("EURJPY.txt", "a")
                 if check_result(id) > 0 :
                  print("win")
                  lossCounter = 0
