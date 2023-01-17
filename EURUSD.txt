@@ -281,4 +281,53 @@ T&D :- 17/01/2023 22:34:02 | EURUSD | WIN | call | 1.19 | Counter :- 281 | 12002
 T&D :- 17/01/2023 22:35:03 | EURUSD | WIN | call | 1.19 | Counter :- 282 | 12003.84 | Compounding Amt :- 1
 T&D :- 17/01/2023 22:36:01 | EURUSD | WIN | call | 1.19 | Counter :- 283 | 12004.9 | Compounding Amt :- 1
 T&D :- 17/01/2023 22:37:02 | EURUSD | LOSS | put | 1.19 | Counter :- 284 | 12003.71 | Compounding Amt :- 2.19
-T&D :- 17/01/2023 22:38:02 | EURUSD | WIN | put | 2.6061 | Counter :- 285 | 
+T&D :- 17/01/2023 22:38:02 | EURUSD | WIN | put | 2.6061 | Counter :- 285 | T&D :- 17/01/2023 22:56:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 2 | 12001.16 | Compounding Amt :- 2
+T&D :- 17/01/2023 22:57:02 | EURUSD | action - Hold | WIN | put | 2.38 | Counter :- 3 | 12001.03 | Compounding Amt :- 2
+T&D :- 17/01/2023 22:58:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 4 | 11999.84 | Compounding Amt :- 4.38
+T&D :- 17/01/2023 22:59:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 5 | 11998.65 | Compounding Amt :- 5.57
+T&D :- 17/01/2023 23:00:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 6 | 11997.46 | Compounding Amt :- 6.76
+T&D :- 17/01/2023 23:01:03 | EURUSD | action - Hold | WIN | call | 8.0444 | Counter :- 7 | 11991.67 | Compounding Amt :- 6.76
+T&D :- 17/01/2023 23:02:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 8 | 11990.48 | Compounding Amt :- 14.8044
+T&D :- 17/01/2023 23:03:02 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 9 | 11989.29 | Compounding Amt :- 15.994399999999999
+T&D :- 17/01/2023 23:04:03 | EURUSD | action - Hold | WIN | call | 19.033336 | Counter :- 10 | 11972.51 | Compounding Amt :- 15.994399999999999
+T&D :- 17/01/2023 23:05:03 | EURUSD | action - Hold | WIN | call | 1.19 | Counter :- 11 | 12007.34 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:06:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 12 | 12006.15 | Compounding Amt :- 2.19
+T&D :- 17/01/2023 23:07:03 | EURUSD | action - Hold | WIN | put | 2.6061 | Counter :- 13 | 12005.79 | Compounding Amt :- 2.19
+T&D :- 17/01/2023 23:08:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 14 | 12004.6 | Compounding Amt :- 4.7961
+T&D :- 17/01/2023 23:09:02 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 15 | 12003.41 | Compounding Amt :- 5.9861
+T&D :- 17/01/2023 23:10:02 | EURUSD | action - Hold | WIN | put | 7.123459 | Counter :- 16 | 11998.54 | Compounding Amt :- 5.9861
+T&D :- 17/01/2023 23:11:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 17 | 11997.35 | Compounding Amt :- 13.109559
+T&D :- 17/01/2023 23:12:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 18 | 11996.16 | Compounding Amt :- 14.299559
+T&D :- 17/01/2023 23:13:04 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 19 | 11994.97 | Compounding Amt :- 15.489559
+T&D :- 17/01/2023 23:14:04 | EURUSD | action - Hold | WIN | call | 18.43257521 | Counter :- 20 | 11978.79 | Compounding Amt :- 15.489559
+T&D :- 17/01/2023 23:15:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 21 | 11977.6 | Compounding Amt :- 33.922134209999996
+T&D :- 17/01/2023 23:16:03 | EURUSD | action - Hold | WIN | put | 40.367339709899994 | Counter :- 22 | 11939.48 | Compounding Amt :- 33.922134209999996
+T&D :- 17/01/2023 23:17:02 | EURUSD | action - Hold | WIN | put | 1.19 | Counter :- 23 | 12014.67 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:18:03 | EURUSD | action - Hold | WIN | put | 1.19 | Counter :- 24 | 12015.73 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:19:02 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 25 | 12014.54 | Compounding Amt :- 2.19
+T&D :- 17/01/2023 23:20:04 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 26 | 12013.35 | Compounding Amt :- 3.38
+T&D :- 17/01/2023 23:21:02 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 27 | 12012.16 | Compounding Amt :- 4.57
+T&D :- 17/01/2023 23:22:03 | EURUSD | action - Hold | WIN | call | 5.4383 | Counter :- 28 | 12008.97 | Compounding Amt :- 4.57
+T&D :- 17/01/2023 23:23:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 29 | 12007.78 | Compounding Amt :- 10.0083
+T&D :- 17/01/2023 23:24:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 30 | 12006.59 | Compounding Amt :- 11.1983
+T&D :- 17/01/2023 23:25:04 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 31 | 12005.4 | Compounding Amt :- 12.3883
+T&D :- 17/01/2023 23:26:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 32 | 12004.21 | Compounding Amt :- 13.578299999999999
+T&D :- 17/01/2023 23:27:04 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 33 | 12003.02 | Compounding Amt :- 14.768299999999998
+T&D :- 17/01/2023 23:28:03 | EURUSD | action - Hold | WIN | put | 17.574277 | Counter :- 34 | 11987.7 | Compounding Amt :- 14.768299999999998
+T&D :- 17/01/2023 23:29:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 35 | 11986.51 | Compounding Amt :- 32.342577
+T&D :- 17/01/2023 23:30:04 | EURUSD | action - Hold | WIN | call | 38.48766663 | Counter :- 36 | 11950.28 | Compounding Amt :- 32.342577
+T&D :- 17/01/2023 23:31:03 | EURUSD | action - Hold | WIN | call | 1.19 | Counter :- 37 | 12021.91 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:32:03 | EURUSD | action - Hold | WIN | call | 1.19 | Counter :- 38 | 12022.97 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:33:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 39 | 12021.78 | Compounding Amt :- 2.19
+T&D :- 17/01/2023 23:37:03 | EURUSD | action - Hold | WIN | call | 1.19 | Counter :- 2 | 12023.74 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:38:03 | EURUSD | action - Hold | WIN | call | 1.19 | Counter :- 3 | 12024.8 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:39:04 | EURUSD | action - Hold | WIN | call | 1.19 | Counter :- 4 | 12025.86 | Compounding Amt :- 1
+T&D :- 17/01/2023 23:42:03 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 2 | 12025.92 | Compounding Amt :- 2
+T&D :- 17/01/2023 23:43:02 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 3 | 12024.73 | Compounding Amt :- 3.19
+T&D :- 17/01/2023 23:44:02 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 4 | 12023.54 | Compounding Amt :- 4.38
+T&D :- 17/01/2023 23:45:03 | EURUSD | action - Hold | WIN | put | 5.2122 | Counter :- 5 | 12020.58 | Compounding Amt :- 4.38
+T&D :- 17/01/2023 23:46:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 6 | 12019.39 | Compounding Amt :- 9.5922
+T&D :- 17/01/2023 23:47:04 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 7 | 12018.2 | Compounding Amt :- 10.7822
+T&D :- 17/01/2023 23:48:03 | EURUSD | action - Hold | LOSS | call | 1.19 | Counter :- 8 | 12017.01 | Compounding Amt :- 11.972199999999999
+T&D :- 17/01/2023 23:49:02 | EURUSD | action - Hold | LOSS | put | 1.19 | Counter :- 9 | 12015.82 | Compounding Amt :- 13.162199999999999
+T&D :- 17/01/2023 23:50:03 | EURUSD | action - Hold | WIN | put | 15.663017999999997 | Counter :- 10 | 12002.41 | Compounding Amt :- 13.162199999999999

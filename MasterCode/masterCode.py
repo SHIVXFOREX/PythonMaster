@@ -88,6 +88,12 @@ while True:
                         # AM
                         if check_result(id) > 0:
                             if winCounter > 1:
+                                now = datetime.now()
+                                closing_hr = now.strftime("%HH")
+                                print("WINCOUNTER ..." , closing_hr)
+                                if closing_hr == 23 :
+                                    print("time is up ...")
+                                    exit()
                                 firstCompound = True
                                 compundingAmt = default_Amt
                                 amount = default_Amt
