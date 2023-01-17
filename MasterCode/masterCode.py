@@ -6,6 +6,7 @@ from datetime import datetime
 import time
 from iqoptionapi.stable_api import IQ_Option
 import easygui
+import indicators
  
 
 now = datetime.now()
@@ -119,11 +120,16 @@ while True:
                                 
                         current_Bal = float(Iq.get_balance())
 
-                        #Write Log..
+                        #call indiacators
+                        
+                        
+                        indicators_result = indicators.indicato_fuction(ACTIVES) 
+                        #Write Logs...
 
                     
                         print("-------------------------------------")
                         print("Counter :- " + str(counter))
+                        print("Indicator :- " , indicators_result)
                         print("Compounding Amt :- " + str(compundingAmt))
                         print("WinCounter :- " + str(winCounter))
                         print("LossCounter :- " + str(lossCounter))
@@ -137,7 +143,8 @@ while True:
                         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
                         file1.write("T&D :- " + dt_string + " | ")
                         file1.write(ACTIVES + " | ")
-                        file1.write(result + " | ")
+                        file1.write(indicators_result)
+                        file1.write(" | " + result + " | ")
                         file1.write(action + " | ")
                         file1.write(str(amount))
                         file1.write(" | Counter :- " + str(counter) + " | ")

@@ -1,0 +1,4 @@
+T&D :- 17/01/2023 21:07:04 | EURJPY | T&D :- 17/01/2023 21:12:03 | EURJPY | action - Hold | LOSS | put | 1.19 | Counter :- 2 | 11948.78 | Compounding Amt :- 2
+T&D :- 17/01/2023 21:13:02 | EURJPY | action - Hold | LOSS | call | 1.19 | Counter :- 3 | 11946.4 | Compounding Amt :- 3.19
+T&D :- 17/01/2023 21:14:02 | EURJPY | action - Hold | LOSS | put | 1.19 | Counter :- 4 | 11944.02 | Compounding Amt :- 4.38
+T&D :- 17/01/2023 21:15:04 | EURJPY | action - Hold | WIN | put | 5.2122 | Counter :- 5 | 11939.29 | Compounding Amt :- 4.38
