@@ -123,6 +123,7 @@ while True:
 
                     
                         print("-------------------------------------")
+                        print("Active :- " + ACTIVES)
                         print("Counter :- " + str(counter))
                         print("Compounding Amt :- " + str(compundingAmt))
                         print("WinCounter :- " + str(winCounter))
@@ -130,6 +131,7 @@ while True:
                         print("Balance :- ", Iq.get_balance())
                         print("Amount :- ", amount)
                         print("Current Earning :- ", current_Bal - Initial_Balance)
+                        print("T&D :- " + dt_string + " | ")
                         print("-------------------------------------")
                         
                         #Write File..
