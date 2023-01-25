@@ -84,34 +84,15 @@ while True:
                             else:
                                 print("ACTION2")
                                 action = "put"
-
+                        
+                        if lossCounter > 9 :
+                            amount = default_Amt
                         # AM
                         if check_result(id) > 0:
-                            if winCounter > 1:
-                                now = datetime.now()
-                                closing_hr = now.strftime("%HH")
-                                print("WINCOUNTER ..." , closing_hr)
-                                if closing_hr == 23 :
-                                    print("time is up ...")
-                                    exit()
-                                firstCompound = True
-                                compundingAmt = default_Amt
-                                amount = default_Amt
-                            if winCounter == 1:
-                                amount = compundingAmt * 0.19 + compundingAmt
-                            else:
-                                amount = default_Amt * 0.19 + default_Amt
-                                print(compundingAmt)
-                        else:
-                            compundingAmt = compundingAmt + amount
-                            amount = default_Amt * 0.19 + default_Amt
+                             amount = default_Amt
+                        else :
+                             amount = amount * 2.1
                         # Place Trade
-                        if firstCompound:
-                            if compundingAmt > 100:
-                                firstCompound = False
-                                print("Sleeping for 30 Min")
-                                time.sleep(1800)
-                        
                         #Place Trade
 
                         _, id = (Iq.buy_digital_spot(
