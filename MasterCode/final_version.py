@@ -38,11 +38,11 @@ while True:
                     amount = 1
                     action = "put"  # put
                     polling_time = 3
-                    counter = 1
+                    counter = 0
                     expirations_mode = 1
                     winCounter = 0
                     lossCounter = 0
-                    Martingle_Arr = [2,5,9,5,10,10,5,10,10,2,4,6,7,6,1,3,1,4,8,8]
+                    Martingle_Arr = [1,8,27,64,125,216,343,512,729,1000]
                     row1 = 0
 
                     # check result
@@ -81,9 +81,10 @@ while True:
                         # AM
                         if check_result(id) > 0:
                             row1 = 0
+                            exit()
                         else:
                             row1 = row1 + 1
-                        amount = Martingle_Arr[row1]
+                        amount = Martingle_Arr[row1] * 1.2
                         print("Amount Counter 1 :" + str(amount))    
 
                         #Place Trade
